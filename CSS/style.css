@@ -1,0 +1,408 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+body {
+    background-color: black;
+    height: auto;
+}
+
+.doscolumn {
+    column-count: 2;
+    column-gap: 30px;
+}
+
+.trescolumn {
+    column-count: 3;
+    column-gap: 30px;
+}
+
+.column {
+    break-inside: avoid;
+}
+
+
+li::marker {
+    color: #FFFFFF;
+}
+
+.textbutton { 
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+/*header*/
+header {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.topbar {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    background-color: #000000;
+}
+
+.topbar h1 {
+    position: relative;
+    padding-left: 50px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+/*would be fun to have the logo animated*/
+.logo {
+    position: relative;
+    width: 87px;
+    height: 87px;
+    padding-left: 20px;
+}
+
+div.logo img {
+    image-rendering: pixelated;
+    height: 100%;
+}
+
+.navigation {
+    top: 90px;
+    height: 50px;
+    background-color: #D61818;
+}
+
+nav li {
+    display: inline-block;
+    padding-right: 182px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+header a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.topbar a:hover {
+    color: #CC06DD;
+}
+
+nav a:hover {
+    color: #FFE500;
+}
+/*header*/
+
+/*overlay*/
+#contact-overlay {
+    background-color: #000000;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: fixed;
+    width: 561px;
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    top: 140px;
+    right: 0px;
+    z-index: 9999;
+  }
+/*overlay*/
+
+
+/*hero section below*/
+.heroImg {
+    position: relative;
+    background-image: url("/images/IMGFILL.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 360px;
+    top: 140px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+}
+
+section.heroImg h1 {
+    position: relative;
+    padding-left: 50px;
+    top: 122px;
+    text-align: left;
+    color: #000000 !important; 
+}
+
+.profile {
+    position: absolute;
+    width: auto;
+    height: 232px;
+    left: 475px;
+    top: 40px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.profile img {
+    position: relative;
+    height: 100%;
+    image-rendering: pixelated;
+}
+
+.profile button {
+    position: absolute;
+    bottom: 0px;
+    padding-left: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+/*hero section above*/
+
+.main {
+    position: relative;
+    top: 170px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.certificate {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px 0px;
+    position: relative;
+    background-color: #000000;
+    outline: 2px solid #CC06DD;
+    padding-left: 51px;
+    height: 120px;
+    flex-basis: 50%;
+}
+
+.left-main {
+    width: 600px;
+    position: relative;
+}
+
+.about {
+    background-color: #000000;
+    outline: 2px solid yellow;
+    height: 400px;
+    width: 810px;
+    flex-basis: 50%;
+    margin-left: 30px;
+    padding-left: 30px;
+    padding-top: 32px;
+    position: relative;
+    z-index: 1;
+}
+
+.column h2 {
+    padding-bottom: 10px;
+}
+
+.fillimg1 {
+    position: relative;
+    margin-top: 30px;
+    height: 250px;
+    z-index: 0;
+}
+
+.fillimg1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  
+}
+
+
+/* skills page */
+.skills {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    top: 170px;
+}
+
+.skills p {
+    width: 241px;
+    height: 164px;
+    text-align: center;
+}
+
+.skills h2 {
+    width: 241px;
+    text-align: center;
+}
+
+.triplecolumn {
+    column-count: 3;
+    column-gap: 170px;
+}
+
+.skills div {
+    outline: solid 2px red;
+}
+
+
+/*designs*/
+.designs {
+    position: relative;
+    top: 170px;
+    margin-left: 30px;
+}
+
+.designs div {
+    outline: solid 2px red;
+    width: 100%;
+    height: auto;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 11px;
+    padding-right: 11px;
+    display: flex;
+    margin-top: 60px ;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.designs img {
+    width: 118px;
+    height: 118px;
+    align-self: flex-start;
+    margin-right: 10px;
+}
+
+.designs h1 {
+    flex-basis: 80%;
+    margin-bottom: 10px;
+}
+
+.designs p {
+    margin-left: 10px;
+    margin-top: 10px;
+    flex-basis: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+footer {
+    position: absolute;
+    top: 1000px;
+    width: 100%;
+    height: 86px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    display: table-column;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+.date {
+    position: absolute;
+    right: 9px;
+    bottom: 9px;
+    font-size: 12px;
+}
+/*footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*font families below*/
+h1 {
+    font-family: 'Michroma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: 'Michroma';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+/*font families above*/
