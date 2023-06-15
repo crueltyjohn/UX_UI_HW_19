@@ -106,7 +106,6 @@ nav a:hover {
     padding-top: 30px;
     padding-bottom: 30px;
     position: fixed;
-    width: 561px;
     height: 86px;
     display: flex;
     flex-direction: column;
@@ -115,14 +114,16 @@ nav a:hover {
     top: 140px;
     right: 0px;
     z-index: 9999;
-  }
+}
+
+  
 /*overlay*/
 
 
 /*hero section below*/
 .heroImg {
     position: relative;
-    background-image: url("/images/IMGFILL.png");
+    background-image: url("../images/IMGFILL.png");
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -398,7 +399,7 @@ h3 {
 }
 
 p {
-    font-family: 'Space Grotesk';
+    font-family: 'Space-Grotesk';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -406,3 +407,24 @@ p {
     color: #FFFFFF;
 }
 /*font families above*/
+
+@font-face {
+    font-family: 'Michroma';
+    src: url('michroma-regular-webfont.woff2') format('woff2'),
+         url('michroma-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'Space-Grotesk';
+    src: url('spacegrotesk-variablefont_wght-webfont.woff2') format('woff2'),
+         url('spacegrotesk-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
